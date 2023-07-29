@@ -1,66 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon" />
+    <title>Barbearia Ramos</title>
+  </head>
 
-  <link rel="stylesheet" href="index.css">
-  <title>Barbearia Ramos</title>
-</head>
+  <body>
+    <header>
+      <h1>
+        Barbearia Ramos
+        <img src="./img/logo.jpeg" alt="Logo do site" />
+      </h1>
+    </header>
+    <main>
+      <section class="section_servico">
+        <!-- <ul>
+          <li>
+            <a href="#">Corte R$25,00</a>
+          </li>
+          <li>
+            <a href="#">Sombracelha R$5,00</a>
+          </li>
+          <li>
+            <a href="#">Barba R$15,00</a>
+          </li>
+          <li>
+            <a href="#">Acabamento R$7,00</a>
+          </li>
+          <li>
+            <a href="#">Luzes R$35,00</a>
+          </li>
+          <li>
+            <a href="#">Relaxamento R$25,00</a>
+          </li>
+          <li>
+            <a href="#">Pigmentação R$20,00</a>
+          </li>
+          <li>
+            <a href="#">Platinado R$60,00</a>
+          </li>
+          <li>
+            <a href="#">Selagem R$50,00</a>
+          </li>
+        </ul> -->
 
-<body>
+        <div class="servicos">
+          <input type="checkbox" id="input-corte" />
+          <label for="input-corte">Corte <span>R$25,00</span></label>
+          <input type="checkbox" id="input-corte" />
+          <label for="input-corte">Corte <span>R$25,00</span></label>
+        </div>
+      </section>
 
-  <h1>
-    Barbearia Ramos <img src="imagem/WhatsApp Image 2023-07-03 at 13.58.04.jpeg" alt="">
-  </h1>
-  <main>
-    <section class="section_servico">
-      <ul>
-        <li>
-          <a href="#">Corte R$25,00</a>
-        </li>
-        <li>
-          <a href="#">Sombracelha R$5,00</a>
-        </li>
-        <li>
-          <a href="#">Barba R$15,00</a>
-        </li>
-        <li>
-          <a href="#">Acabamento R$7,00</a>
-        </li>
-        <li>
-          <a href="#">Luzes R$35,00</a>
-        </li>
-        <li>
-          <a href="#">Relaxamento R$25,00</a>
-        </li>
-        <li>
-          <a href="#">Pigmentação R$20,00</a>
-        </li>
-        <li>
-          <a href="#">Platinado R$60,00</a>
-        </li>
-        <li>
-          <a href="#">Selagem R$50,00</a>
-        </li>
-      </ul>
+      <section class="section_cliente">
+        <input type="text" placeholder="Nome Completo" id="" />
+        <input type="text" placeholder="Celular  de contato" id="" />
+        <input type="text" placeholder="Data e Horario" id="" />
+        <input type="text" placeholder="Forma de pagamento" id="" />
 
-
-    </section>
-    <section class="section_cliente">
-      <input type="text" placeholder="Nome Completo" id="">
-      <input type="text" placeholder="Celular  de contato" id="">
-      <input type="text" placeholder="Data e Horario" id="">
-      <input type="text" placeholder="Forma de pagamento" id="">
-
-      <div class="btn">
-        <button id="btn_cancelar">Cancelar</button>
-        <button id="btn_confirmar">Agendar</button>
-      </div>
-    </section>
-  </main>
-
-</body>
-
+        <div class="btn">
+          <button id="btn_cancelar">Cancelar</button>
+          <button id="btn_agendar">Agendar</button>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
