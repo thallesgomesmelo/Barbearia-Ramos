@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,41 +19,38 @@
     </header>
     <main>
       <section class="section_servico">
-        <!-- <ul>
-          <li>
-            <a href="#">Corte R$25,00</a>
-          </li>
-          <li>
-            <a href="#">Sombracelha R$5,00</a>
-          </li>
-          <li>
-            <a href="#">Barba R$15,00</a>
-          </li>
-          <li>
-            <a href="#">Acabamento R$7,00</a>
-          </li>
-          <li>
-            <a href="#">Luzes R$35,00</a>
-          </li>
-          <li>
-            <a href="#">Relaxamento R$25,00</a>
-          </li>
-          <li>
-            <a href="#">Pigmentação R$20,00</a>
-          </li>
-          <li>
-            <a href="#">Platinado R$60,00</a>
-          </li>
-          <li>
-            <a href="#">Selagem R$50,00</a>
-          </li>
-        </ul> -->
-
         <div class="servicos">
-          <input type="checkbox" id="input-corte" />
-          <label for="input-corte">Corte <span>R$25,00</span></label>
-          <input type="checkbox" id="input-corte" />
-          <label for="input-corte">Corte <span>R$25,00</span></label>
+          <input type="checkbox" id="input-corte-25" />
+          <label for="input-corte">Corte R$25,00</label>
+
+          <input type="checkbox" id="input-sombracelha-5" />
+          <label for="input-sombracelha">Sombracelha R$5,00</label>
+
+          <input type="checkbox" id="input-barba-15">
+          <label for="input-barba">Barba R$15,00</label>
+
+          <input type="checkbox" id="input-acabamento-7">
+          <label for="input-acabamento">Acabamento R$7,00</label>
+
+          <input type="checkbox" id="input-luzes-35">
+          <label for="input-luzes">Luzes R$35,00</label>
+
+          <input type="checkbox" id="input-relaxamento-25">
+          <label for="input-relaxamento">Relaxamento R$25,00</label>
+
+          <input type="checkbox" id="input-pigmentacao-20">
+          <label for="input-pigmentacao">Pigmentação R$20,00</label>
+
+          <input type="checkbox" id="input-platinado-60">
+          <label for="input-platinado">Platinado R$60,00</label>
+
+          <input type="checkbox" id="input-selagem-50">
+          <label for="input-selagem">Selagem R$50,00</label>
+        </div>
+
+        <div class="container_somatoria">
+          <h3>Total:</h3>
+          <span class="somatoria">R$ <span id="total">0,00</span></span>
         </div>
       </section>
 
@@ -68,5 +66,9 @@
         </div>
       </section>
     </main>
+
+
+    <script src="./js/index.js"></script>
   </body>
+
 </html>
